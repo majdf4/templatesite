@@ -8,24 +8,41 @@
 body {
     display:flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-flow: column;
     min-height: 98vh;
+    border: solid rgb(207, 38, 38) 2px;
+}
+
+.spacer {
+    flex:.5;
 }
 
 .title {
     display:flex; 
     align-items: center;
+    justify-content: center;
     font-weight: bold;
-    font-size: 300%;
-    margin-bottom:-18%;
+    font-size: 500%;
+    margin-bottom:-35%;
 }
 
-.links, .subtext {
+/* .links{
     display: flex;
     flex-flow: row;
     justify-content: center;
+} */
+
+.link, .social{
+    padding:0px 10px;
 }
 
-.link {
-    padding:0px 10px;
+.social {
+    width:45px;
+    height:45px;
+}
+
+.socials{
+    margin-top: auto;
+    padding-bottom: 2vh
 }
