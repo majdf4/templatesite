@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: none;
+    background-color:rgb(228, 222, 205);
+    color: rgb(207, 38, 38);
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-size: 20px;
+}
+
+.link{
+    padding: 0px 1rem;
+}
+
+.logo{
+    background-color: rgba(255, 0, 0, 0);
+    font-weight: bold;
+    font-size: 200%;
+    padding: 10px;
+}
+
+/* main site */
+.center{
+    min-height: 100%;
+    border: solid rgb(207, 38, 38) 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 8px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+/* about-pfp block */
+
+.circle{
+    width:110px;
+    height:110px;
+    border: solid rgb(207, 38, 38) 2px;
+    border-radius: 50%;
+}
+
+.titlePFP{
+    display:flex; 
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    /* border: solid rgb(38, 207, 94) 2px; */
+}
+
+.titlePFP h1{
+    font-size:2.5rem;
+    background-color:rgba(255, 228, 196, 0);
+    /* border: red 2px solid; */
+}
+
+/* text */
+.mainText{
+    /* border: solid rgb(207, 196, 38) 2px; */
+    padding:0px 20px;
+    max-width:30rem;
+}
